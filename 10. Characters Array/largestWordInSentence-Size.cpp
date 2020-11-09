@@ -21,7 +21,6 @@ int main(){
         if(sentence[i]=='\0' || sentence[i]==' '){
             maxLength=max(currLength,maxLength);
             currLength=-1;
-            currI=
         }
     }
 
