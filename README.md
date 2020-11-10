@@ -31,13 +31,13 @@ This Compliles all the **personal and official notes(in accordance to lectures)*
 You can think of this like **online website of notes.**
 
 ## 2. Issues
-Some significant doubts or questions are listed as issues.
+Some significant **doubts or questions are listed as issues.**
 
 ## 3. Repositories
-Each Folder contains the respective code of that lecture.
+**Each Folder** contains the **respective code of that lecture.**
 
 # Can I contribute ?
-Why not ? Feel Free to Contribute :) Always Welcome
+Why not ? Feel Free to Contribute :) Always Welcome <br>
 Here are few ideas
 1. Fix some typo error
 2. Add some missing links of notes
