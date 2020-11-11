@@ -13,14 +13,13 @@ int main(){
     cout<<pointer<<endl;
 
     // Example #2
-    char c = 'M';
-    char* charPTR = &c;
+    char c[] = "M";
+    char* charPTR = c;
 
-    cout<<charPTR<<endl;
+    cout<<(void *)charPTR<<endl;
 
     ++charPTR;
-    cout<<charPTR<<endl;
-
+    cout<<(void *)charPTR<<endl;
 
     return 0;
 }
