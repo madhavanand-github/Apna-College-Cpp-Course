@@ -8,7 +8,7 @@ int main(){
     string str;
 
     //Input a string
-    cin>>str;
+    cin>>str; cin.ignore();
 
     //Output a string
     cout<<str<<endl;
@@ -22,7 +22,7 @@ int main(){
     //#3 Declare a string
     string str2 = "ApnaCollege";
     cout<<str2<<endl;
-    cin.ignore();
+
 
     //#4 Input Multi-line String
     string str3;
