@@ -13,6 +13,5 @@ int main(){
 
     cout<<setBit_1(5,1);
     cout<<setBit_0(5,0);
-
     return 0;
 }
