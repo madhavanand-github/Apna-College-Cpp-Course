@@ -25,16 +25,19 @@ int main(){
             uniqueNum=i;
             break;
         }
-    cout<<uniqueNum;
+    cout<<uniqueNum<<endl;
     
     // 3. Alternate Approach - Optimized
     int temp2[7]={0,0,0,0,0,0,0};
+    int ans = 0;
     for (int i = 0; i < 7; i++)
     {
         temp2[arr[i]]++;
-        
+        if(temp2[arr[i]]==1)
+            ans+=arr[i];
+        else
+            ans-=arr[i];
     }
-    
-    
+    cout<<ans<<endl;
     return 0;
 }
