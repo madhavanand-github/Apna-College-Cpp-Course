@@ -3,18 +3,18 @@ using namespace std;
 
 // Question: Find the factorial of number n using recursion.
 
-int fact(int n){
-    
-    // Base Case
-    if(n==0 || n==1)
+int factorial(int n){
+
+    //Base Case 
+    if(!n)
         return 1;
     
-    // Recursive Case
-    return n * fact(n-1);
+    //Recursion Case
+    return n * factorial(n-1);
 }
 
 int main(){
 
-    cout<<fact(5);
+    cout<<factorial(5)<<endl;
     return 0;
 }

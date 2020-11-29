@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 
-// Question: Find n exponent p using recursion, where p is whole numbers
+// Question: Find n exponent p using, where p is whole numbers
 
 int nRaisep(int n, int p){
     
     // Base Case
-    if(p==0)
+    if(!p)
         return 1;
 
     //Recursive Case

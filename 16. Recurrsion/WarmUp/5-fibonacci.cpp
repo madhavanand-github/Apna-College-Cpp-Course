@@ -6,7 +6,7 @@ using namespace std;
 int fib(int n){
 
     //Base Case
-    if(n==0 || n==1)
+    if(n<2)
         return n;
     
     //Recursive Case
@@ -15,6 +15,8 @@ int fib(int n){
 }
 
 int main(){
-    cout<<fib(5);
+
+    cout<<fib(2);
     return 0;
+    
 }
