@@ -8,20 +8,20 @@ int main(){
     // Declaration #1
     vector<int> v;
 
-    // Declaration #2
-    vector<int> v2(3,50);
-
-    /// Declaration #3
-    vector<int> v3(3,100);
-
-    // Insertion
+    // Insertion : Demonstrates Dynamic Nature of Vector
     v.push_back(1);
     v.push_back(3);
     v.push_back(2);
     v.push_back(4);
 
-    // Deletion
+    // Deletion : Demonstrates Dynamic Nature of Vector
     v.pop_back();
+
+    // Declaration #2: Default Values
+    vector<int> v2(3,50);
+
+    /// Declaration #3: Default Values
+    vector<int> v3(3,100);
 
     // Accessing #1 for-loop
     for (int i = 0; i < v.size(); i++)
