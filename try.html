@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<h1> Hello </h1>
+</body>
+
+<script>
+
+	document.addEventListener( "keydown" , e => {
+		e.preventDefault();
+		if(e.altKey && e.key=='Enter'){
+			let button = document.getElementsByClassName("submit__2ISl");
+			button[0].click();
+			console.log("Done !!");
+		}
+	} )	
+
+	document.addEventListener( "keydown" , e => {
+		e.preventDefault();
+		if(e.ctrlKey && e.key=='Enter'){
+			let expandConsole = document.getElementsByClassName("custom-testcase__2ah7");
+			expandConsole[0].click();
+			let exampleTestCase = document.getElementsByClassName("example-testcases__3q5c");
+			exampleTestCase[0].click();
+			let runButton = document.getElementsByClassName("runcode__1EDI");
+			runButton[0].click();
+			console.log("Done !!");
+		}
+	} )
+
+</script>
+
+</html>
